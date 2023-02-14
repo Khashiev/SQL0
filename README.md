@@ -102,7 +102,7 @@ Please take a look at some SQL standards below and try to think about the future
 - field menu_id - foreign key to menu
 - field order_date - date (for example 2022-01-01) of person order 
 
-Persons' visit and persons' order are different entities and don't contain any correlation between data. For example, a client can be in one restraunt (just looking at menu) and in this time make an order in different one by phone or by mobile application. Or another case,  just be at home and again make a call with order without any visits.
+Persons' visit and persons' order are different entities and don't contain any correlation between data. For example, a client can be in one restaurant (just looking at menu) and in this time make an order in different one by phone or by mobile application. Or another case,  just be at home and again make a call with order without any visits.
 
 ## Chapter IV
 ## Exercise 00 - First steps into SQL world
@@ -154,7 +154,7 @@ Please make 2 syntax different select statements which return a list of pizzeria
 | **Allowed**                               |                                                                                                                          |
 | Language                        | ANSI SQL                                                                                              |
 
-Please make a select statement which returns the person's identifiers (without duplication) which visited pizzerias in a period from 6th of January 2022 to 9th of January 2022 (including all days) or visited pizzeria with identifier 2. Also include ordering clause by person identifier in descending mode.
+Please make a select statement which returns the person's identifiers (without duplication) who visited pizzerias in a period from 6th of January 2022 to 9th of January 2022 (including all days) or visited pizzeria with identifier 2. Also include ordering clause by person identifier in descending mode.
 
 ## Chapter VIII
 ## Exercise 04 - First steps into SQL world
@@ -171,7 +171,7 @@ Please make a select statement which returns one calculated field with name ‘p
 
 `Anna (age:16,gender:'female',address:'Moscow')`
 
-Finally , please add the ordering clause by calculated column in ascending mode.
+Finally, please add the ordering clause by calculated column in ascending mode.
 Please pay attention to quote symbols in your formula!
 
 ## Chapter IX
@@ -187,7 +187,7 @@ Please pay attention to quote symbols in your formula!
 | **Denied**                               |                                           
 | SQL Syntax Construction                        | `IN`, any types of `JOINs`                                                                                              |
 
-Please make a select statement which returns person's names (based on internal query in `SELECT` clause) which made orders for the menu with identifiers 13 , 14 and 18 and date of orders should equal 7th of January 2022. Please be aware with "Denied Section" before your work.
+Please make a select statement which returns person's names (based on internal query in `SELECT` clause) who made orders for the menu with identifiers 13 , 14 and 18 and date of orders should be equal 7th of January 2022. Be aware with "Denied Section" before your work.
 
 Please take a look at the pattern of internal query.
 
