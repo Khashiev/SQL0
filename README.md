@@ -261,7 +261,7 @@ Please make a SQL statement which returns all columns from the `person_order` ta
 | SQL Syntax Construction                        | any types of `JOINs`                                                                                              |
 
 
-Please make a select statement that returns person names and pizzeria names based on the `person_visit` table with date of visit in a period from 07th of January to 09th of January 2022 (including all days) (based on internal query in `FROM` clause) .
+Please make a select statement that returns person names and pizzeria names based on the `person_visits` table with date of visit in a period from 07th of January to 09th of January 2022 (including all days) (based on internal query in `FROM` clause) .
 
 
 Please take a look at the pattern of the final query.
